@@ -100,7 +100,7 @@ function isPrime(counter){
         }  
     }
     
-     //Se número não for nem ímpar, nem múltiplo de 5 e nem primo, concatenar o próprio número no final da string.
+     //Se for maior que 1 e não possuir masi que dois divisores ou ser igual a 2
      if(counter > 1 && (divisores == 0 || counter == 2 )){
         RetornoPrimo = 'Prime'      
     }
